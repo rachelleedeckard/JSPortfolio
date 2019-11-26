@@ -8,6 +8,13 @@ body {
     background-size: cover;
 }
 
+p {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    font-size: 17px;
+    text-align: justify;
+}
+
 h1 {
     font-family: 'Cormorant Garamond', serif;
     color: hsl(0, 0%, 100%);
@@ -190,7 +197,7 @@ nav ul li {
 
 #aboutMe {
     background-color: hsla(0, 0%, 100%, 0.829);
-    height: 400px;
+    height: 410px;
 }
 
 #projectTitle {
