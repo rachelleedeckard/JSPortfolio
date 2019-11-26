@@ -3,7 +3,7 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
-    background: url(../Portfolio/assets/trees1.jpg)
+    background: url("./assets/trees1.jpg")
     center fixed no-repeat;
     background-size: cover;
 }
