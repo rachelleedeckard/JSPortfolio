@@ -1,0 +1,276 @@
+body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: url(../Portfolio/assets/trees1.jpg)
+    center fixed no-repeat;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 80px;
+    text-shadow: 1.5px 1.5px 1.5px #363636;
+    float: center;
+}
+
+h2 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #606A76;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px rgb(24, 24, 59);
+    float: center;
+}
+
+.contactTitle {
+    font-family: 'Cormorant Garamond', serif;
+    color: #606A76;
+    font-size: 40px;
+    text-shadow: 1px 1px 1px rgb(24, 24, 59);
+    margin-top: 25px;
+}
+
+.contactText {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+}
+
+label {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    font-size: 18px;
+}
+
+textarea {
+    height: 100px;
+    width: 500px;
+}
+
+.nameInput {
+    width: 190px;
+}
+
+.emailInput {
+    width: 290px;
+    margin-left: 20px;
+}
+
+#email {
+    margin-left: 165px;
+}
+
+#messageTitle {
+    margin-top: 10px;
+}
+
+button {
+    margin-left: 435px;
+    margin-top: 15px;
+    font-family: 'Cormorant Garamond', serif;
+    background-color: #606A76;
+    padding-right: 15px;
+    padding-left: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: solid 2px #363636;
+    border-radius: 30px;
+}
+
+button:hover {
+    background-color: #8d7fa7;
+    border: rgb(197, 195, 195) solid 2px;
+}
+
+h3 {
+    font-family: 'Cormorant Garamond', serif;
+    color: hsl(0, 0%, 100%);
+    font-size: 40px;
+    text-shadow: 1.5px 1.5px 1.5px #363636;
+    float: center;
+}
+
+.copyright {
+    margin-top: 20px;
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+}
+
+h4 {
+    font-family: 'Cormorant Garamond', serif;
+    color: #606A76;
+    font-size: 25px;
+    text-shadow: 1px 1px 1px rgb(24, 24, 59);
+}
+
+h5 {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: #606A76;
+    font-size: 30px;
+    text-shadow: 1px 1px 1px rgb(24, 24, 59);
+    float: center;
+}
+
+#home {
+    margin-top: 200px;
+    margin-bottom: 85px;
+    padding: 0px;
+    height: 200px;
+    float: center;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.navigation {
+    margin: auto;
+}
+
+nav {
+    background-color: hsla(0, 0%, 100%, 0.829);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 65px;
+    width: 100vw;
+    z-index: 1;
+    display: flex;
+}
+
+nav ul li {
+    float: left;
+    margin-right: 40px;
+    list-style-type: none;
+    text-align: center;
+}
+
+#homeButton {
+    margin-top: 2px;
+    font-size: 30px;
+    float: left;
+}
+
+#navButton {
+    text-align: center;
+    margin-top: 9px;
+}
+
+.nav-link {
+    color: #B9C8CD;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    text-shadow: 1px 1px 1px rgb(23, 23, 78);
+}
+
+.nav-link:hover {
+    color: #8d7fa7;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px rgb(197, 195, 195);
+}
+
+.home-link {
+    padding-top: 10px;
+    color: #606A76;
+    text-decoration: none;
+    font-family: 'Cormorant Garamond', serif;
+    text-shadow: 1px 1px 1px rgb(24, 24, 59);
+}
+
+.home-link:hover {
+    color: #8d7fa7;
+    font-weight: bold;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px rgb(197, 195, 195);
+}
+
+
+#aboutMe {
+    background-color: hsla(0, 0%, 100%, 0.829);
+    height: 400px;
+}
+
+#projectTitle {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+#projectCards {
+    margin-bottom: 150px;
+}
+
+.card {
+    background-color: hsla(0, 0%, 100%, 0.829);
+    border-width: 3px;
+    border-right-color: #363636;
+    border-bottom-color: #363636;
+    border-style: solid;
+}
+
+.card-img-top {
+    opacity: .75;
+}
+
+.card-img-top:hover {
+    opacity: 100%;
+}
+
+.card-text {
+    font-family: 'Cormorant Garamond', serif;
+    color: black;
+    font-size: 20px;
+}
+
+#contact {
+    background-color: hsla(0, 0%, 100%, 0.829);
+    height: 330px;  
+    justify-content: center;
+    
+}
+
+#profilePic {
+    margin-top: 30px;
+    border-radius: 20px;
+    border: white 10px solid; 
+    opacity: 0.9;
+}
+
+.aboutMePara {
+    margin-top: 30px;
+}
+
+.linkedin {
+    max-height: 25px;
+    margin-left: 4px;
+    margin-bottom: 5px;
+}
+
+.linkedin:hover {
+    text-decoration: none;
+    opacity: .8;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+#contactForm {
+    margin-top: 30px;
+    margin-left: 20px;
+    padding-left: 50px;
+    border-left-color: #363636;
+    border-right-color: transparent;
+    border-top-color: transparent;
+    border-bottom-color: transparent;
+    border-width: 2px;
+    border-style: solid;
+    height: 260px;
+}
+
+.email {
+    margin-left: 20px;
+}

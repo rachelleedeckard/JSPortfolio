@@ -1,23 +1,157 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:600&display=swap" rel="stylesheet">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Rachel Lee Deckard</title>
 </head>
+
 <body>
     
     <!-- Navbar -->
+    <nav>
+        <ul class="navigation">
+            <li id="navButton"><a href="#aboutMe" class="nav-link">ABOUT</a></li>
+            <li id="navButton"><a href="#projectTitle" class="nav-link">PROJECTS</a></li>
+            <li id="homeButton"><a href="#home" class="home-link">HOME</a></li>
+            <li id="navButton"><a href="assets/RachelDeckardResumePDF.pdf" target="_blank" class="nav-link">RESUME</a></li>
+            <li id="navButton"><a href="#contact" class="nav-link">CONTACT</a></li>
+        </ul>
+    </nav>
 
     <!-- Landing/Header Page -->
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+            <header id="home">
+                    <h1>RACHEL L DECKARD</h1>
+                    <h5>INDIANAPOLIS, IN</h5>
+            </header>
+        </div>
+    </div>
+    
+
 
     <!-- About Me -->
+    <div class="row" id="aboutMe">
+        <div class="col-md-2"></div>
+        <div class="col-md-3">
+                <img src="assets/me4.jpg" alt="" class="profilePic" id="profilePic" height="40%">
+        </div>
+        <div class="col-md-5">
+            <article class="aboutMePara">
+                <h2>About Me</h2>
+                    <p>Currently, I am attending the Eleven Fifty Academy for JavaScript so I can launch my career as a developer. 
+                        Most of my previous experience is in retail management with focus on operations and visual merchandising.</p>
+                        <br>
+                        <p>I have always had a strong eye for design and look foward to starting my future in technology. My future 
+                            intrest include building my project management skill set and moving into a Dev Ops Project Manager role.</p>
+                        <br>
+                        <p>Below are a few of my projects I have completed while attending Eleven Fifty. Enjoy!</p>
+            </article>
+        </div>
+        <div class="col-md-2"></div>
+
+    </div>
 
     <!-- Projects Page = Tutorial Website, Creature Assignment, Api Project -->
+    <div class="row" id="projectTitle">
+        <div class="col-md-12">
+            <h3>PROJECTS</h3>
+        </div>
+    </div>
+    <div class="row" id="projectCards">
+        <div class="col"></div>
 
-    <!-- Contact Section -->
+        <div class="col">
+            <div class="card" style="width: 20rem; height: 35em;">
+                <a href="https://codepen.io/radeckard/pen/JjjWKMY" target="_blank">
+                    <img src="assets/Creature.PNG" class="card-img-top" alt="Creature"></a>
+                <div class="card-body">
+                    <h4>Creature Project</h4>
+                    <p class="card-text">Using my knowledge of HTML & CSS, I created a codepen code snippet that is of a creature.</p>
+                </div>
+            </div>
+        </div>
 
+        <div class="col">
+            <div class="card" style="width: 20rem; height: 35em;">
+                <a href="https://rachelleedeckard.github.io/TutorialWebpage/" target="_blank">
+                    <img src="assets/TutorialPage.PNG" class="card-img-top" alt="TutorialPage"></a>
+                <div class="card-body">
+                    <h4>Tutorial Webpage</h4>
+                    <p class="card-text">Using HTML & CSS, I built an informative webpage about functions, objects, and arrays.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <div class="card" style="width: 20rem; height: 35em;">
+                    <a href="https://api-project-giphy.firebaseapp.com/" target="_blank">
+                        <img src="assets/GIF.PNG" class="card-img-top" alt="GIF"></a>
+                    <div class="card-body">
+                        <h4>API Project</h4>
+                        <p class="card-text">Using HTML, CSS, and JavaScript, I built a website that pulls from an open API to generate content for my application.</p>
+                    </div>
+            </div>
+        </div>
+
+        <div class="col"></div>
+    </div>
+
+<!-- Contact Section -->
+    <div class="row" id="contact">
+        <div class="col"></div>
+
+        <div class="col-md-3">
+            <h2 class="contactTitle">Contact</h2>
+            <p class="contactText">If you wish to contact me, please fill out the following form 
+                or connect with me on<a href="https://www.linkedin.com/in/rachel-deckard-90b811111/" target="_blank">
+                    <img src="assets/linkedin2.png" class="linkedin"></a></p>
+            <p class="copyright">&copy 2019 Rachel L Deckard. All rights reserved.</p>
+        </div>
+
+        <div class="col-md-5" id="contactForm">
+            <form action="https://formspree.io/xwkkgokl" method="POST" target="_blank">
+                <div class="row">
+                    <label class="name">Name: </label>
+                    <label class="email" id="email">Email: </label>
+                </div>
+
+                <div class="row">
+                    <input class="nameInput" type="text" name="name">
+                    <input class="emailInput" type="text" name="_replyto">
+                </div>
+
+                <div class="row">
+                    <label id="messageTitle">Message: </label>
+                </div>
+                <div class="row">
+                    <textarea name="message"></textarea>
+                </div>
+
+                <div class="row">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
+        </div>
+
+        <div class="col"></div>
+
+    </div>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
 
 </body>
+
+
 </html>
